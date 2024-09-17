@@ -1,13 +1,20 @@
 .ti{
-    background-color: #C38C6B;
     color: rgb(0, 0, 0);
-    height: 100px;
+    height: 60px;
     width: 100% ;
+   font-family: "Cinzel", serif;
+   font-optical-sizing: auto;
+   font-weight: 350px;
+   font-style: normal;
 }
-th{
-    padding-right: 138.5px;
-    padding-left: 138.5px;
-    background-color: #CFBFB9;
+body{
+  background-color: #c59f87dc;  
+}
+table{
+    padding-right: 5%;
+    padding-left: 5%;
+    width: 100%;
+    background-color: #B97868;
 }
 .po{
     background-color: #B97868;
@@ -28,9 +35,25 @@ th{
 
     
 }
+#carouselExampleControls{
+    height: 200px;
+   
 
-#carouselExampleIndicators img{
-    height: 300px;
+}
+#carouselExampleControls img{
+    height: 200px;
     width: 1000px;
     object-fit: contain;
 }
+#carousel-control-prev{
+    width: 50px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}    
+a:hover{
+        color: #884a32;
+    }
+    
