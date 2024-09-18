@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <th><a href="misterio.html">Misterio</a> </th>
+                <th> <a href="Fantasia.html">Fantasia</a> </th>
+                <th><a href="Autores.html">Autores</a> </th>
+                <th><a href="index (7).html">Inicio</a></th>
+            </tr>
+        </table>
+    </div>
+    <button id="mostrarTodos">Mostrar Todos</button>
+    <button id="ordenarAlfabeticamente">Ordenar Alfabeticamente</button>
+    <select id="sub-categoria" name="subcategorias">
+        <option id="drama" value="drama">Drama</option>
+        <option id="juvenil" value="juvenil">Juvenil</option>
+        <option id="ficcion_contemporanea" value="ficción_contemporánea">Ficción contemporánea</option>
+        <option id="ficcion_clasica" value="ficción_clásica">Ficción clásica</option>
+        <option id="ficcion_gotica" value="ficción_gótica">Ficción gótica</option>
+        <option id="distopia" value="distopía">Distopía</option>
+        <option id="aventura" value="aventura">Aventura</option>
+        <option id="tragedia" value="tragedia">Tragedia</option>
+        <option id="ficcion_historica" value="ficción_histórica">Ficción histórica</option>
+      </select>
+      <button id="btnEstadisticas">Mostrar Estadisticas</button>
+    <input type="text" placeholder="ingrese un nombre" id="txtNombre">
+    
+    <div class="contenedor" id="contenedor">
+
+    </div>
+    <canvas id="myPieChart"></canvas>
+    <script type="module" src="romance.js"></script>
+</body>
+</html>

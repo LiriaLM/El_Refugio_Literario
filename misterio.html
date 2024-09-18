@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <th><a href="romance.html">Romance</a> </th>
+                <th> <a href="fantasia.html">Fantasia</a> </th>
+                <th><a href="Autores.html">Autores</a> </th>
+                <th><a href="index (7).html">Inicio</a></th>
+            </tr>
+        </table>
+    </div>
+    <button id="mostrarTodos">Mostrar Todos</button>
+    <button id="ordenarAlfabeticamente">Ordenar Alfabeticamente</button>
+    <select id="sub-categoria" name="subcategorias">
+        <option value="thriller">Thriller</option>
+        <option value="suspenso">Suspenso</option>
+        <option value="crimen">Crimen</option>
+        <option value="thriller_psicológico">Thriller psicológico</option>
+        <option value="ficción_histórica">Ficción histórica</option>
+        <option value="detectivesco">Detectivesco</option>
+        <option value="suspenso_psicológico">Suspenso psicológico</option>
+        <option value="ficción_contemporánea">Ficción contemporánea</option>
+        <option value="ficción_literaria">Ficción literaria</option>
+        <option value="cuentos_cortos">Cuentos cortos</option>
+        <option value="filosofía">Filosofía</option>
+        <option value="ficción_juvenil">Ficción juvenil</option>
+      </select>
+    <input type="text" placeholder="ingrese un nombre" id="txtNombre">
+    <button id="btnEstadisticas">Mostrar Estadisticas</button>
+    <div class="contenedor" id="contenedor">
+
+        <canvas id="myPieChart"></canvas>   
+    </div>
+    <script type="module" src="misterio.js"></script>
+</body>
+</html>
