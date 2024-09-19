@@ -4,7 +4,7 @@
     width: 100% ;
    font-family: "Cinzel", serif;
    font-optical-sizing: auto;
-   font-weight: 350px;
+   font-weight: 450px;
    font-style: normal;
 }
 body{
@@ -23,14 +23,19 @@ table{
 
 }
 .estante{
+    background-image: url(../img/librero.png);
+    resize: both;
+    overflow-x: auto;
+    background-repeat: repeat-x;
     width: 200px;
-    margin-bottom: -1720px;
+    margin-bottom: ; 
     margin-left: 20px;
+    
     
 }
 .estante2{
     width: 200px;
-    margin-bottom: -2320px;
+    margin-bottom: -1570px;
     margin-left: 20px;
 
     
@@ -42,7 +47,7 @@ table{
 }
 #carouselExampleControls img{
     height: 200px;
-    width: 1000px;
+    width: 800px;
     object-fit: contain;
 }
 #carousel-control-prev{
@@ -56,4 +61,8 @@ a{
 a:hover{
         color: #884a32;
     }
-    
+.plan{
+    margin-bottom: -490px;
+    margin-left: 1060px;
+    width: 300px;
+}  
