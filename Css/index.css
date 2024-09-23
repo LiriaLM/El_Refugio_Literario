@@ -1,0 +1,148 @@
+.ti {
+    color: rgb(0, 0, 0);
+    height: 60px;
+    width: 100%;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 450px;
+    font-style: normal;
+    text-align: center;
+}
+
+body {
+    background-color: #c59f87dc;
+}
+
+table {
+    padding-right: 5%;
+    padding-left: 5%;
+    width: 100%;
+    background-color: #B97868;
+}
+
+.po {
+    background-color: #B97868;
+    color: black;
+    height: 250px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+.estantes-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -60px; 
+}
+
+.estante {
+    width: 150px; 
+    margin-left: 0px;
+    margin-right: 20%;
+    margin-top: -60px;
+}
+
+
+.estante2 {
+    width: 200px;
+    margin-bottom: -1570px;
+    margin-left: 20px;
+
+
+}
+
+#carouselExampleControls {
+    height: 200px;
+
+}
+
+#carouselExampleControls img {
+    height: 200px;
+    width: 800px;
+    object-fit: contain;
+}
+
+#carousel-control-prev {
+    width: 50px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a:hover {
+    color: #884a32;
+}
+
+.plan {
+    margin-bottom: -490px;
+    margin-left: 1060px;
+    width: 300px;
+}
+
+
+
+
+
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.book-item {
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px; 
+    transition: transform 0.3s ease;
+}
+
+.book-item:hover {
+    transform: scale(1.15);
+}
+
+.book {
+    width: 100%;
+    height: auto;
+    box-shadow: inset 0 0 0 2px #d4d4d4, 0 4px 6px rgba(0,0,0,0.1);
+}
+
+
+.modal-content {
+    background-color: transparent !important; 
+    background-image: url(../img/papel.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    border: none;
+    box-shadow: none;
+  }
+  .modal-header, 
+  .modal-body {
+    background-color: transparent !important; 
+  }
+  .modal {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+  }
+  .modal-content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/papel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+  } 

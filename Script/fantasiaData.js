@@ -10,7 +10,7 @@ export default
         "idioma_original": "Inglés",
         "año_lanzamiento": 1937,
         "portada": "https://www.planetalector.com/usuaris/thumbnails/libros/fotos/357/360/portada_el-hobbit_j-r-r-tolkien_202207271130.jpg",
-        "sub_categorias": ["alta fantasía", "aventura"]
+        "subcategorias": ["alta_fantasía", "aventura"]
     },
     {
         "titulo": "Harry Potter y la piedra filosofal",
@@ -21,7 +21,7 @@ export default
         "idioma_original": "Inglés",
         "año_lanzamiento": 1997,
         "portada": "https://images.cdn3.buscalibre.com/fit-in/360x360/ce/e6/cee6ef96dad70d3f599b953f0e50afc7.jpg",
-        "sub_categorias": ["fantasía juvenil", "magia"]
+        "subcategorias": ["fantasía_juvenil", "magia"]
     },
     {
         "nombre": "Juego de Tronos",
@@ -32,7 +32,7 @@ export default
         "idioma_original": "Inglés",
         "año_lanzamiento": 1996,
         "portada":"https://images.cdn1.buscalibre.com/fit-in/360x360/0d/3a/0d3a96ea78c6b52c3acabdf4c5657f99.jpg",
-        "sub_categorias":["fantasía épica", "politica"]
+        "subcategorias":["fantasía_épica", "politica"]
     },
     {
         "titulo": "La rueda del tiempo: El ojo del mundo",
@@ -42,8 +42,8 @@ export default
         "puntuacion": 4.6,
         "idioma_original": "Inglés",
         "año_lanzamiento": 1990,
-        "portada": "https://static.wikia.nocookie.net/biblioteca-virtual-de-literatura/images/0/09/El_Ojo_del_Mundo.jpg/revision/latest?cb=20190806163908&path-prefix=es",
-        "sub_categorias": ["fantasía épica", "aventura"]
+        "portada": "https://m.media-amazon.com/images/I/51oTSi6-GtL._AC_SY200_QL15_.jpg",
+        "subcategorias": ["fantasía_épica", "aventura"]
     },
     {
         "titulo": "El nombre del viento",
@@ -54,7 +54,7 @@ export default
         "idioma_original": "Inglés",
         "año_lanzamiento": 2007,
         "portada": "https://images.cdn3.buscalibre.com/fit-in/360x360/a7/90/a790dff70defe5c61b66fd73716b6e30.jpg",
-        "sub_categorias": ["fantasía moderna", "aventura"]
+        "subcategorias": ["fantasía_moderna", "aventura"]
     },
     {
         "titulo": "El mago de la serpiente",
@@ -65,7 +65,7 @@ export default
         "idioma_original": "Inglés",
         "año_lanzamiento": 1995,
         "portada": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJsp8ZWZEInSGw-1P8MEUjDyrY9hDFaqf7Ew&s",
-        "sub_categorias": ["aventura", "épica"]
+        "subcategorias": ["aventura", "épica"]
     },
     {
         "titulo": "La historia interminable",
@@ -76,7 +76,7 @@ export default
         "idioma_original": "Alemán",
         "año_lanzamiento": 1979,
         "portada":"https://images.cdn1.buscalibre.com/fit-in/360x360/5b/18/5b18ed831bc8fbbac844f6a7bc5f9a51.jpg",
-        "sub_categorias": ["aventura", "magia"]
+        "subcategorias": ["aventura", "magia"]
     },
     {
         "titulo": "Mago: La búsqueda de la tierra de la magia",
@@ -86,7 +86,8 @@ export default
         "puntuacion": 4.4,
         "idioma_original": "Inglés",
         "año_lanzamiento": 1982,
-        "sub_categorias": ["aventura", "épica"]
+        "portada":"https://static.wikia.nocookie.net/midkemia/images/7/7e/Magician_ukpb_cover.jpg/revision/latest?cb=20080711121244",
+        "subcategorias": ["aventura", "épica"]
     },
     {
         "titulo": "El ciclo de los demonios: El libro de las sombras",
@@ -96,17 +97,19 @@ export default
         "puntuacion": 4.5,
         "idioma_original": "Inglés",
         "año_lanzamiento": 2008,
-        "sub_categorias": ["épica", "aventura"]
+        "portada":"https://m.media-amazon.com/images/I/91pdYtDVZ4L._AC_UF894,1000_QL80_.jpg",
+        "subcategorias": ["épica", "aventura"]
     },
     {
         "titulo": "La canción de los maoríes",
-        "autor": "Lian Hearn",
+        "autor": "Sarah Leark",
         "paginas": 400,
-        "sinopsis": "En un mundo inspirado en el Japón feudal, un joven noble busca venganza y justicia en un mundo lleno de intrigas y magia.",
+        "sinopsis": "En La canción de los maoríes, las primas Elaine y Kura forjan su propio destino entre las raíces inglesas y la llamada del pueblo maorí. En tiempos convulsos, vivirán los vaivenes de una tierra comparada con el paraíso a la que llegan misteriosos desconocidos decididos a quedarse.",
         "puntuacion": 4.6,
         "idioma_original": "Inglés",
         "año_lanzamiento": 2002,
-        "sub_categorias": ["épica", "aventura"]
+        "portada":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnj_9SziCUzYyZiVkPlXw9zfAw5fluoUBLbtzeKEYt5H9nCnsNTFJrkGaSDkTVeTxFOyU4-bhpGHfs5q8Cc-SadSO7Y__4oj_UV8xhjctGcoQonaKoo7VOWyUwb14VXeTqOHYhDMYu3Qs/s1600/La+canci%25C3%25B3n+de+los+maor%25C3%25ADes.jpg",
+        "subcategorias": ["aventura"]
     },
     {
         "titulo": "El mago de Oz",
@@ -116,7 +119,8 @@ export default
         "puntuacion": 4.7,
         "idioma_original": "Inglés",
         "año_lanzamiento": 1900,
-        "sub_categorias": ["aventura", "magia"]
+        "portada":"https://images.cdn3.buscalibre.com/fit-in/360x360/c6/97/c697da37f1685943b95ef6c5a1fca60a.jpg",
+        "subcategorias": ["aventura", "magia"]
     },
     {
         "titulo": "La princesa prometida",
@@ -126,7 +130,8 @@ export default
         "puntuacion": 4.8,
         "idioma_original": "Inglés",
         "año_lanzamiento": 1973,
-        "sub_categorias": ["aventura", "romántica"]
+        "portada":"https://images.cdn2.buscalibre.com/fit-in/360x360/8b/5d/8b5d718279489c0de7cda2b387e0ff50.jpg",
+        "subcategorias": ["aventura"]
     },
     {
         "titulo": "Los pilares de la Tierra",
@@ -136,7 +141,8 @@ export default
         "puntuacion": 4.6,
         "idioma_original": "Inglés",
         "año_lanzamiento": 1989,
-        "sub_categorias": ["épica", "histórica"]
+        "portada":"https://images.cdn2.buscalibre.com/fit-in/360x360/61/32/61328f4133cbc217435c385c1eaefd74.jpg",
+        "subcategorias": ["épica", "histórica"]
     },
     {
         "titulo": "El ciclo de la puerta de la muerte: La búsqueda del héroe",
@@ -146,7 +152,8 @@ export default
         "puntuacion": 4.5,
         "idioma_original": "Inglés",
         "año_lanzamiento": 1990,
-        "sub_categorias": ["épica", "aventura"]
+        "portada":"https://images.cdn2.buscalibre.com/fit-in/360x360/dd/50/dd50d3b500f7c90a585cfd480164aa64.jpg",
+        "subcategorias": ["épica", "aventura"]
     },
     {
         "titulo": "La espada de la verdad: El primer reino",
@@ -156,7 +163,8 @@ export default
         "puntuacion": 4.4,
         "idioma_original": "Inglés",
         "año_lanzamiento": 1994,
-        "sub_categorias": ["épica", "aventura"]
+        "portada":"",
+        "subcategorias": ["épica", "aventura"]
     },
     {
         "titulo": "El descubrimiento de las brujas",
@@ -166,7 +174,7 @@ export default
         "puntuacion": 4.5,
         "idioma_original": "Inglés",
         "año_lanzamiento": 2011,
-        "sub_categorias": ["aventura", "magia"]
+        "subcategorias": ["aventura", "magia"]
     },
     {
         "titulo": "La casa de los espíritus",
@@ -176,7 +184,7 @@ export default
         "puntuacion": 4.7,
         "idioma_original": "Español",
         "año_lanzamiento": 1982,
-        "sub_categorias": ["magia", "realismo mágico"]
+        "subcategorias": ["magia", "realismo_mágico"]
     },
     {
         "titulo": "Las crónicas de Narnia: El león, la bruja y el armario",
@@ -186,7 +194,7 @@ export default
         "puntuacion": 4.7,
         "idioma_original": "Inglés",
         "año_lanzamiento": 1950,
-        "sub_categorias": ["aventura", "magia"]
+        "subcategorias": ["aventura", "magia"]
     },
     {
         "titulo": "Los juegos del hambre",
@@ -196,7 +204,7 @@ export default
         "puntuacion": 4.6,
         "idioma_original": "Inglés",
         "año_lanzamiento": 2008,
-        "sub_categorias": ["aventura", "distopía"]
+        "subcategorias": ["aventura", "distopia"]
     },
     {
         "titulo": "El Ciclo de los Demonios: El Despertar",
@@ -206,7 +214,7 @@ export default
         "puntuacion": 4.5,
         "idioma_original": "Inglés",
         "año_lanzamiento": 2009,
-        "sub_categorias": ["aventura", "épica"]
+        "subcategorias": ["aventura", "épica"]
     },
     {
         "titulo": "El hombre en el castillo",
@@ -216,7 +224,7 @@ export default
         "puntuacion": 4.4,
         "idioma_original": "Inglés",
         "año_lanzamiento": 1962,
-        "sub_categorias": ["distopía", "alternativa"]
+        "subcategorias": ["distopia", "alternativa"]
     },
     {
         "titulo": "La tierra de las sombras",
@@ -226,7 +234,7 @@ export default
         "puntuacion": 4.6,
         "idioma_original": "Inglés",
         "año_lanzamiento": 2015,
-        "sub_categorias": ["aventura", "épica"]
+        "subcategorias": ["aventura", "épica"]
     },
     {
         "titulo": "El silmarillion",
@@ -236,7 +244,7 @@ export default
         "puntuacion": 4.5,
         "idioma_original": "Inglés",
         "año_lanzamiento": 1977,
-        "sub_categorias": ["mitología", "épica"]
+        "subcategorias": ["mitología", "épica"]
     },
     {
         "titulo": "La ciudad de las sombras",
@@ -246,7 +254,7 @@ export default
         "puntuacion": 4.4,
         "idioma_original": "Inglés",
         "año_lanzamiento": 2015,
-        "sub_categorias": ["aventura", "magia"]
+        "subcategorias": ["aventura", "magia"]
     },
     {
         "titulo": "La bruja de los bosques",
@@ -256,7 +264,7 @@ export default
         "puntuacion": 4.3,
         "idioma_original": "Inglés",
         "año_lanzamiento": 1989,
-        "sub_categorias": ["aventura", "magia"]
+        "subcategorias": ["aventura", "magia"]
     },
     {
         "titulo": "La torre de cristal",
@@ -266,7 +274,7 @@ export default
         "puntuacion": 4.6,
         "idioma_original": "Inglés",
         "año_lanzamiento": 1992,
-        "sub_categorias": ["aventura", "terror"]
+        "subcategorias": ["aventura"]
     },
     {
         "titulo": "El reino de los dragones",
@@ -276,7 +284,7 @@ export default
         "puntuacion": 4.5,
         "idioma_original": "Inglés",
         "año_lanzamiento": 2008,
-        "sub_categorias": ["aventura", "épica"]
+        "subcategorias": ["aventura", "épica"]
     },
     {
         "titulo": "El ciclo de la luna roja: La búsqueda",
@@ -286,7 +294,7 @@ export default
         "puntuacion": 4.4,
         "idioma_original": "Español",
         "año_lanzamiento": 2014,
-        "sub_categorias": ["aventura", "épica"]
+        "subcategorias": ["aventura", "épica"]
     },
     {
         "titulo": "La guerra de los clanes",
@@ -296,7 +304,7 @@ export default
         "puntuacion": 4.5,
         "idioma_original": "Inglés",
         "año_lanzamiento": 2003,
-        "sub_categorias": ["aventura", "fantasía animal"]
+        "subcategorias": ["aventura", "fantasía_animal"]
     },
     {
         "titulo": "El océano al final del camino",
@@ -306,7 +314,7 @@ export default
         "puntuacion": 4.7,
         "idioma_original": "Inglés",
         "año_lanzamiento": 2013,
-        "sub_categorias": ["magia", "aventura"]
+        "subcategorias": ["magia", "aventura"]
     },
     {
         "titulo": "El libro de los portales",
@@ -316,7 +324,7 @@ export default
         "puntuacion": 4.6,
         "idioma_original": "Español",
         "año_lanzamiento": 2013,
-        "sub_categorias": ["aventura", "magia"]
+        "subcategorias": ["aventura", "magia"]
     },
     {
         "titulo": "El secreto del unicornio",
@@ -326,7 +334,7 @@ export default
         "puntuacion": 4.8,
         "idioma_original": "Francés",
         "año_lanzamiento": 1940,
-        "sub_categorias": ["aventura", "misterio"]
+        "subcategorias": ["aventura"]
     },
     {
         "titulo": "El imperio final",
@@ -336,6 +344,6 @@ export default
         "puntuacion": 4.7,
         "idioma_original": "Inglés",
         "año_lanzamiento": 2006,
-        "sub_categorias": ["épica", "aventura"]
+        "subcategorias": ["épica", "aventura"]
     }
 ]

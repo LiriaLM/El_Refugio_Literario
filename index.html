@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="Css/index.css">
+
+</head>
+
+<body>
+  <img class="plan" src="img/pla 1.png"
+    alt=""> 
+  <header>
+    <div class="ti">
+      <h1> El refugio literario </h1>
+    </div>
+
+    <div>
+      <table>
+        <tr>
+          <th> <a href="Romance.html">Romance</a> </th>
+          <th><a href="Misterio.html">Misterio</a> </th>
+        </tr>
+      </table>
+    </div>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/3.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/4.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/5.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/6.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </header>
+
+  <main>
+
+
+    
+    <div class="po">
+      <h2>Populares</h2>
+      <div id="contenedor" class="book-container">
+        <!-- Los libros se generarán aquí mediante JavaScript -->
+      </div> 
+       <!--<img class="estante" src="img/librero.png" alt=""> <img class="estante" src="img/librero.png" alt=""> <img class="estante" src="/img/librero.png" alt=""><img class="estante" src="/img/librero.png" alt=""><img class="estante" src="/img/librero.png" alt=""><img class="estante" src="/img/librero.png" alt=""> <!-- <img class="estante2" src="/img/librero.png" alt=""><img class="estante2" src="/img/librero.png" alt=""><img class="estante2" src="/img/librero.png" alt=""><img class="estante2" src="/img/librero.png" alt=""><img class="estante2" src="/img/librero.png" alt=""><img class="estante2" src="/img/librero.png" alt="">-->
+     </div>
+ 
+
+    <br><br>
+    <div class="po">
+      <h2>Novedades</h2>
+      <div id="contenedorr" class="book-container">
+        <!-- Los libros se generarán aquí mediante JavaScript -->
+      </div> 
+    </div>
+
+    <br><br>
+    <div class="po">
+      <h2>Accesorios</h2>
+      <div id="contenedoorr" class="book-container">
+        <!-- Los libros se generarán aquí mediante JavaScript -->
+      </div> 
+    </div>
+
+
+     <!-- Modal para mostrar la información del libro -->
+<div class="modal fade" id="modalInfo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 id="modalTitulo" class="modal-title fs-5">Título del libro</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p><strong>Autor:</strong> <span id="modalAutor"></span></p>
+        <p><strong>Sinopsis:</strong></p>
+        <p id="modalSinopsis"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </main>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script type="module" src="Script/populares.js"></script>
+  <script type="module" src="Script/novedades.js"></script>
+  <script type="module" src="Script/accesorios.js"></script>
+</body>
+
+</html>

@@ -1,20 +1,118 @@
 .ti{
-    color: rgb(0, 0, 0);
-    height: 60px;
-    width: 100% ;
-    font-size: 60px;
-    text-align: center;
+  color: rgb(0, 0, 0);
+  height: 60px;
+  width: 100%;
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 450px;
+  font-style: normal;
+  text-align: center;
 }
 
 body{
   background-image: url(../img/foondoo.png);
-    background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    margin: 0; 
+    padding: 0; 
+    height: 100vh; /
 }
-button{
-    background-color: #A65858;
-    border: 1px solid black;
-    border-radius: 5px;
-    width: 60px;
+button {
+  background-color: #A65858;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white; 
+  
+}
+.botones{
+  width: 1000px;
+  margin-top: -40px;
+  cursor: pointer; 
+  font-size: 15px;
+  height: 100px;
+
 }
 
+.contenedor {
+  margin: auto;
+  display: flex;
+  width: 60%;
+  flex-wrap: wrap;
+  margin-top: -60px;
+ 
+}
+
+.contenedor div {
+  width: 50px;
+  height: 70px;
+  border: 1px blueviolet solid;
+  margin: 38px;
+  margin-bottom: -14px;
+  background-color: rgb(177, 80, 63);
+  color: brown;
+  font-family: "Biling";
+  src: url(./fuentes/Billing\ Lottre-Regular.otf);
+}
+
+img {
+  width: 50px;
+  height: 60px;
+  border: 1px rgb(67, 20, 78) solid;
+  
+}
+
+
+.contenedor div {
+  background-color: rgb(177, 80, 63);
+  color: brown;
+  font-family: "Biling";
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s; 
+}
+
+.contenedor div:hover {
+  transform: scale(1.1); 
+}
+
+img {
+  width: 100%;
+  height: auto; 
+  border-radius: 5px; 
+}
+
+.contenedor div:hover img {
+  transform: scale(2.6); 
+}
+
+
+
+.modal-content {
+  background-color: transparent !important; 
+  background-image: url(../img/papel.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  border: none;
+  box-shadow: none;
+}
+.modal-header, 
+.modal-body {
+  background-color: transparent !important; 
+}
+.modal {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.modal-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/papel.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}

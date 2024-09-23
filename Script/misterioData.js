@@ -13,17 +13,6 @@ export default
     "subcategorias": ["Ficción histórica", "Thriller"]
   },
   {
-    "nombre": "La chica del tren",
-    "autor": "Paula Hawkins",
-    "paginas": 250,
-    "sinopsis": "Rachel, una mujer devastada por su vida personal, se obsesiona con una pareja que ve todos los días desde el tren, hasta que una desaparición la involucra en un misterio oscuro.",
-    "puntuacion": 4.1,
-    "idioma_original": "Inglés",
-    "año_lanzamiento": 2015,
-    "portada":"https://images.cdn2.buscalibre.com/fit-in/360x360/a9/dd/a9dd9755bde59005eb4421bb1f061bcc.jpg",
-    "subcategorias": ["Suspenso psicológico", "Thriller"]
-  },
-  {
     "nombre": "Perdida",
     "autor": "Gillian Flynn",
     "paginas": 398,
@@ -32,7 +21,7 @@ export default
     "idioma_original": "Inglés",
     "año_lanzamiento": 2012,
     "portada":"https://images.cdn1.buscalibre.com/fit-in/360x360/01/b5/01b500597d555ef79a1b6e443ca3a0de.jpg",
-    "subcategorias": ["Thriller psicológico", "Suspenso"]
+    "subcategorias": ["thriller_psicológico", "Suspenso"]
   },
   {
     "nombre": "El silencio de los corderos",
@@ -46,17 +35,6 @@ export default
     "subcategorias": ["thriller_psicológico", "crimen"]
   },
   {
-    "nombre": "Sherlock Holmes: Estudio en escarlata",
-    "autor": "Arthur Conan Doyle",
-    "paginas": 102,
-    "sinopsis": "El detective Sherlock Holmes y su compañero, el Dr. Watson, investigan el misterioso asesinato de un hombre, lo que los lleva a descubrir una conspiración oculta.",
-    "puntuacion": 4.6,
-    "idioma_original": "Inglés",
-    "año_lanzamiento": 1887,
-    "portada":"https://www.planetadelibros.com.pe/usuaris/libros/fotos/349/m_libros/348874_portada_estudio-en-escarlata_arthur-conan-doyle_202203180959.jpg",
-    "subcategorias": ["detectivesco", "ficción_clásica"]
-  },
-  {
     "nombre": "La verdad sobre el caso Harry Quebert",
     "autor": "Joël Dicker",
     "paginas": 68,
@@ -67,28 +45,7 @@ export default
     "portada":"https://images.cdn3.buscalibre.com/fit-in/360x360/fe/e1/fee1e9c818cc41dfc3ca68e4175da9ec.jpg",
     "subcategorias": ["suspenso", "ficción_contemporánea"]
   },
-  {
-    "nombre": "Asesinato en el Orient Express",
-    "autor": "Agatha Christie",
-    "paginas": 176,
-    "sinopsis": "El detective Hércules Poirot investiga el asesinato de un pasajero en el lujoso tren Orient Express, donde todos los viajeros son sospechosos.",
-    "puntuacion": 4.4,
-    "idioma_original": "Inglés",
-    "año_lanzamiento": 1934,
-    "portada":"https://images.cdn1.buscalibre.com/fit-in/360x360/2f/e4/2fe487d9fe7072bfc1a4f419964b0c0a.jpg",
-    "subcategorias": ["detectivesco", "crimen"]
-  },
-  {
-    "nombre": "La sombra del viento",
-    "autor": "Carlos Ruiz Zafón",
-    "paginas": 288,
-    "sinopsis": "Daniel Sempere descubre un libro maldito en un misterioso cementerio de libros olvidados, lo que lo envuelve en un oscuro enigma que afecta su vida y la de quienes lo rodean.",
-    "puntuacion": 4.6,
-    "idioma_original": "Español",
-    "año_lanzamiento": 2001,
-    "portada":"https://images.cdn2.buscalibre.com/fit-in/360x360/c0/0d/c00dd3a9668387339be2de5e97bb589c.jpg",
-    "subcategorias": ["ficción_histórica", "Novela_gótica"]
-  },
+  
   {
     "nombre": "El psicoanalista",
     "autor": "John Katzenbach",
@@ -133,28 +90,7 @@ export default
     "portada": "https://images.cdn1.buscalibre.com/fit-in/360x360/03/0a/030a419b5cbfda84843b6b9fdc5d8273.jpg",
     "subcategorias": ["suspenso"]
   },
-  {
-    "nombre": "La verdad sobre el caso Savolta",
-    "autor": "Eduardo Mendoza",
-    "paginas": 229,
-    "sinopsis": "En Barcelona de principios del siglo XX, un joven abogado se ve envuelto en una trama de conspiraciones, asesinatos y corrupción industrial.",
-    "puntuacion": 4.3,
-    "idioma_original": "Español",
-    "año_lanzamiento": 1975,
-    "portada":"https://www.planetadelibros.com.pe/usuaris/libros/fotos/201/m_libros/200372_portada_la-verdad-sobre-el-caso-savolta_eduardo-mendoza_201505261015.jpg",
-    "subcategorias": ["ficción_histórica", "crimen"]
-  },
-  {
-    "nombre": "La mujer en la ventana",
-    "autor": "A.J. Finn",
-    "paginas": 303,
-    "sinopsis": "Anna Fox, una mujer que sufre de agorafobia, cree haber presenciado un crimen desde la ventana de su casa, pero nadie le cree.",
-    "puntuacion": 4.0,
-    "idioma_original": "Inglés",
-    "año_lanzamiento": 2018,
-    "portada":"https://www.penguinlibros.com/pe/1678326/la-mujer-en-la-ventana.jpg",
-    "subcategorias": ["thriller_psicológico", "suspenso"]
-  },
+  
   {
     "nombre": "La casa al final de Needless Street",
     "autor": "Catriona Ward",
